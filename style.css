@@ -245,23 +245,19 @@ nav div ul li a {
 
 
 /*=============== Специалисты SECTIONS ===============*/
-.divbox{
-    width: 1800px;
-    height: 1800px;
-    border: 1px solid blue;
-    margin: 0 auto;
+.divlar {
+    
 }
 
 
 .yozuv{
     font-size: 25px;
-    padding-left: 140px;
 }
 
 .box{
-    width: 700px;
+    width: 45%;
     display: flex;
-    padding: 20px;
+    padding: 2rem;
     background-color:rgb(243, 242, 242);
     border-radius: 15px;
    
@@ -269,11 +265,21 @@ nav div ul li a {
 .divlar{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
     gap: 20px;
-    padding:0 130px
-    
+    margin-top: 5rem;    
 }
 
+.doktr {
+    display: flex;
+    align-items: flex-end;
+}
+.doktr img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
 
 
 
