@@ -221,7 +221,63 @@ nav div ul li a {
 
 
 /*=============== При фиксации брекетов на обе челюсти получи сертификат на 7000 рублей SECTIONS ===============*/
+.section-m{
+    height: 800px;
 
+}
+.backround{
+    display: flex;
+    background: linear-gradient(45deg, #E6F2FF 0%, #FAF1ED 100%);
+    height: 80%;
+}
+.backround-right-doc{
+    width: 45%;
+    height: 100%;
+}
+.img-doc{
+    position: relative;
+    bottom: 289px;
+    width: 600px;
+    height: 1000px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('./images/lithuanian-woman-dentist-holding-tools-isolated-background-celebrating-victory_1-removebg\ 1\ \(1\).png');
+}
+.backround-left-text{
+    position: relative;
+    top: 50px;
+    left: 80px;
+    width: 55%;
+    height: 100%;
+}
+.button-input{
+    position: relative;
+    left: 180px;
+    bottom: 53px;
+}
+.number{
+    position: relative;
+    bottom: 25px;
+    left: 245px;
+    color: #38BCEA;
+}
+.input-section-m{
+    border-radius: 5px;
+    width: 160px;
+    height: 50px;
+}
+.text-button{
+    color: white;
+}
+.button-section-m{
+    position: relative;
+    top: 3px;
+    width: 230px;
+    height: 50px;
+    border-radius: 5px;
+    background: #38BCEA;
+}
 
 
 
@@ -245,9 +301,7 @@ nav div ul li a {
 
 
 /*=============== Специалисты SECTIONS ===============*/
-.divlar {
-    
-}
+
 
 
 .yozuv{
